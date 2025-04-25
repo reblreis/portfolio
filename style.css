@@ -23,7 +23,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #de53d9;
+  background-color: #d68fd4;
   color: #fff;
   padding: 40px 0;
   text-align: center;
@@ -42,7 +42,7 @@ header p {
 
 /* Seções */
 section {
-  background-color: #fff;
+  background-color: #c497c1;
   padding: 40px 20px;
   margin: 40px 0;
   border-radius: 8px;
