@@ -1,4 +1,3 @@
-/* Fonte bonita do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
@@ -29,15 +28,14 @@ body {
   text-align: center;
 }
 
+header {
+  margin-bottom: 2rem;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  color: var(--accent);
 }
 
 p {
@@ -45,34 +43,33 @@ p {
   margin: 1rem auto;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+h2 {
+  font-size: 2rem;
   margin-top: 2rem;
 }
 
-.project-card {
-  background-color: var(--card-bg);
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px var(--card-shadow);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px var(--card-shadow);
+ul {
+  list-style-type: none;
+  margin: 1rem 0;
 }
 
-.project-card h3 {
-  margin-bottom: 0.5rem;
+ul li {
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
   color: var(--accent);
+  font-weight: bold;
 }
 
-.project-card p {
-  font-size: 0.95rem;
-  color: #555;
+a:hover {
+  text-decoration: underline;
 }
 
 .btn {
@@ -81,8 +78,6 @@ p {
   color: white;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
   transition: background 0.3s ease;
   margin-top: 1rem;
 }
@@ -105,5 +100,9 @@ footer {
 
   .container {
     padding: 1rem;
+  }
+
+  p, ul {
+    text-align: left;
   }
 }
